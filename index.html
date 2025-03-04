@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Club Deportivo Fénix</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Club Deportivo Fénix</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#reglamento">Reglamento</a></li>
+                <li><a href="#equipos">Equipos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#inscripcion">Inscripción</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenido al Club Deportivo Fénix</h2>
+        <p>Un espacio para entrenar, competir y disfrutar del fútbol en su formato más puro: banquitas. Fomentamos la disciplina, el trabajo en equipo y el respeto, ofreciendo un ambiente ideal para jugadores de todas las edades.</p>
+        <button onclick="cambiarColor()">Cambiar color de fondo</button>
+    </section>
+
+    <section id="historia">
+        <h2>Historia</h2>
+        <p>El Club Deportivo Fénix fue fundado en 2025 con la idea de revivir la pasión por el fútbol callejero a través de banquitas. Lo que comenzó como un grupo de amigos organizando partidos informales, pronto se convirtió en un club estructurado con entrenamientos, torneos y eventos.</p>
+    </section>
+
+    <section id="reglamento">
+        <h2>Reglamento</h2>
+        <h3>Normas Generales</h3>
+        <ul>
+            <li>Respeto y disciplina entre jugadores.</li>
+            <li>Puntualidad en partidos y entrenamientos.</li>
+            <li>Compromiso con el equipo.</li>
+            <li>Uso obligatorio del uniforme en torneos.</li>
+            <li>Cuidado de las instalaciones.</li>
+        </ul>
+        <h3>Reglas de Banquitas</h3>
+        <ul>
+            <li>Equipos de 3 a 5 jugadores, sin arquero.</li>
+            <li>Gana el primero en llegar a 5 goles o el que tenga más goles en 10 minutos.</li>
+            <li>No hay tiros de esquina ni fuera de lugar.</li>
+            <li>Prohibidas las faltas bruscas y discusiones con el árbitro.</li>
+        </ul>
+    </section>
+
+    <section id="equipos">
+        <h2>Equipos y Categorías</h2>
+        <ul>
+            <li>Sub-10: Niños de 7 a 10 años.</li>
+            <li>Sub-15: Adolescentes de 11 a 15 años.</li>
+            <li>Libre: Para jugadores de todas las edades.</li>
+            <li>Competitivo: Para quienes buscan jugar en torneos organizados.</li>
+        </ul>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>📍 Dirección: Soacha, Cundinamarca - Gimnasio Moderno Colombiano</p>
+        <p>📞 Teléfono: +57 3161228962</p>
+        <p>📧 Correo: dilan7galindo@gmail.com</p>
+    </section>
+
+    <section id="inscripcion">
+        <h2>Inscripción</h2>
+        <form id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" required>
+            
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required>
+            
+            <button type="submit">Enviar</button>
+        </form>
+        <p id="mensaje"></p>
+    </section>
+
+    <footer>
+        <p>Fundadores y Dueños: Dilan Galindo y Juanes Toro</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
